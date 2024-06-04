@@ -49,3 +49,47 @@
 .off-area img {
   width: 60%;
 }
+
+/* ==========party-area=========== */
+.party-area {
+  margin: 30px 0;
+}
+.party-content {
+  background-image: linear-gradient(
+      0deg,
+      rgba(5, 0, 36, 0.423) 0%,
+      rgba(0, 0, 0, 0.742734593837535) 100%
+    ),
+    url(img/Vectorrr.png);
+  background-size: cover;
+  padding: 90px;
+}
+.party-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.left-text {
+  width: 40%;
+}
+.left-text h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.left-text p {
+  font-size: 14px;
+  font-weight: 100;
+}
+.party-text img {
+  width: 200px;
+}
+.btn {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 30px;
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
