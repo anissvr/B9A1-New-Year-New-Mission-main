@@ -30,3 +30,22 @@
 .title h3 {
   font-weight: 300;
 }
+
+/* ===========off area============= */
+.off-area {
+  text-align: center;
+  margin: 50px 0;
+}
+.color {
+  color: #ff0000;
+}
+.off-area h3 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+.off-area h2 {
+  margin: 10px 0;
+}
+.off-area img {
+  width: 60%;
+}
