@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  padding: 30px 90px;
+}
+.banner {
+  background-image: linear-gradient(
+      0deg,
+      rgba(5, 0, 36, 0.423) 0%,
+      rgba(0, 0, 0, 0.742734593837535) 100%
+    ),
+    url(img/Banner\ Image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  color: white;
+  text-align: center;
+  padding: 185px 287px;
+}
+.title h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+.title h3 {
+  font-weight: 300;
+}
