@@ -63,6 +63,7 @@
     url(img/Vectorrr.png);
   background-size: cover;
   padding: 90px;
+  border-radius: 8px;
 }
 .party-text {
   display: flex;
@@ -92,4 +93,25 @@
   color: white;
   text-decoration: none;
   border-radius: 5px;
+}
+/* ==========coming-soon========== */
+.coming-soon {
+  margin: 80px 0;
+}
+.coming-area {
+  display: flex;
+  justify-content: space-between;
+}
+.coming-area > div {
+  width: 30%;
+}
+.text-left h3,
+.text-right h2 {
+  margin: 20px 0;
+}
+.img-middle img {
+  width: 290px;
+  border: 8px solid #ff0000;
+  padding: 20px;
+  border-radius: 50%;
 }
