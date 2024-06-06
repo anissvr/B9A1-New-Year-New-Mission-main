@@ -121,6 +121,7 @@
 }
 .port-text {
   width: 60%;
+  margin-bottom: 20px;
 }
 .img-area > div > img {
   width: 340px;
@@ -129,4 +130,34 @@
 }
 .img-area > div > img:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* ===========news-latter============ */
+.news-latter {
+  background-color: #fff2f2;
+  padding: 50px 190px;
+  text-align: center;
+  margin: 50px 0;
+  border-radius: 8px;
+}
+.news-latter img {
+  width: 70px;
+}
+.news-latter h2,
+p {
+  margin: 20px 0;
+}
+.news-latter form input {
+  width: 400px;
+  padding: 15px 20px;
+  border-radius: 50px 0px 0px 40px;
+  border: none;
+}
+.btn-2 {
+  display: inline-block;
+  margin-left: -10px;
+  padding: 11px 30px;
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 0px 50px 50px 0px;
 }
